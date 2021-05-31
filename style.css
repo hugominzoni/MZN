@@ -1,0 +1,370 @@
+/*
+#E7004C PINK
+#0788e4 BLUE
+#041E42 DARK BLUE
+#363636 DARK GRAY
+
+font-family: 'Manrope', sans-serif;
+
+<a href='https://www.freepik.com/vectors/people'>People vector created by pch.vector - www.freepik.com</a>
+<a href='https://www.freepik.com/vectors/business'>Business vector created by stories - www.freepik.com</a>
+<a href='https://www.freepik.com/vectors/infographic'>Infographic vector created by vectorjuice - www.freepik.com</a>
+
+*/
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    image-rendering: optimizeQuality;
+
+}
+
+body {
+    background: #F8F9FA;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 90px;
+
+}
+
+
+.logo {
+    width: 74px;
+    height: 90px;
+    background-image: url(img/MZN_logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 140px;
+    color: #adb5bd;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.hero-img {
+    height: 80vh;
+    width: 55%;
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    background: url(img/8244.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    z-index: -10;
+}
+
+
+.headline {
+    width: 40vw;
+    position: absolute;
+    top: 38%;
+    /* transform: translateY(-55%); */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headline h1 {
+    color: #363636;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    letter-spacing: -0.03rem;
+    line-height: 1.2;
+}
+
+.headline p,
+.sec-right p,
+.arg-left p {
+    color: #adb5bd;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.learn-more {
+    color: #fff;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 220px;
+    height: 45px;
+    background-color: #0788e4;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.055);
+    transition: all 0.9s;
+}
+
+.button:hover {
+    background-color: #1a70ad;
+    transform: translateY(2px);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.301);
+}
+
+.arrow {
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: keys .8s ease-in-out infinite alternate-reverse;
+}
+
+.arrow i {
+    font-size: 2.4rem;
+
+}
+
+@keyframes keys {
+    from {
+        bottom: 20px;
+    }
+
+    to {
+        bottom: 10px;
+        color: #041E42;
+    }
+}
+
+/****************************************************/
+/* NEW SECTION */
+/****************************************************/
+
+section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec-content {
+    width: 80%;
+    height: auto;
+}
+
+.sec-content,
+.sec-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-right {
+    width: 400px;
+    height: auto;
+}
+
+.sec-right h2 {
+    font-size: 2.1rem;
+    color: #363636;
+    margin-bottom: 20px;
+}
+
+.sec-right p {
+    line-height: 1.4;
+}
+
+
+.sec-left {
+    width: 45%;
+    height: 400px;
+    margin-right: 90px;
+}
+
+.sec-left img {
+    width: 100%;
+}
+
+/****************************************************/
+/* NEW SECTION */
+/****************************************************/
+
+.arg {
+    width: 80%;
+    height: auto;
+}
+
+.arg,
+.arg-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arg-right {
+    height: auto;
+}
+
+.arg-right {
+    width: 45%;
+    height: 400px;
+    margin-left: 60px;
+}
+
+.arg-right img {
+    width: 100%;
+}
+
+.arg-left h2 {
+    font-size: 2.1rem;
+    color: #363636;
+    margin-bottom: 20px;
+}
+
+.arg-left p {
+    line-height: 1.4;
+}
+
+.arg-left {
+    width: 400px;
+    margin-right: 50px;
+}
+
+/****************************************************/
+/* NEW SECTION */
+/****************************************************/
+
+.services {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.serv-sec {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box1,
+.box2,
+.box3 {
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 330px;
+    height: 486px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 11px rgba(0, 0, 0, 0.082);
+    transition: all 0.4s;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+    transform: translateY(3px);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.301);
+}
+
+.box-title {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+.box1-cont,
+.box2-cont,
+.box3-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-img {
+    width: 200px;
+    height: auto;
+}
+
+.box-para {
+    color: #adb5bd;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+}
+
+/****************************************************/
+/* NEW SECTION */
+/****************************************************/
+
+.contact-us {
+    width: 100%;
+    height: 90vh;
+    background-color: #041E42;
+    position: relative;
+}
+
+.form-cont {
+    width: 40%;
+    height: 500px;
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    right: 90px;
+}
+
+.btn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #E7004C !important;
+    width: 180px !important;
+    height: 40px !important;
+}
+
+
+
+
+
+footer {
+    background-color: #111111;
+    width: 100%;
+    height: 120px;
+}
