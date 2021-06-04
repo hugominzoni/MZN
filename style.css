@@ -114,26 +114,6 @@ li {
 }
 
 
-.button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    width: 220px;
-    height: 45px;
-    background-color: #0788e4;
-    border: none;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.055);
-    transition: all 0.9s;
-}
-
-.button:hover {
-    background-color: #1a70ad;
-    transform: translateY(2px);
-    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.301);
-}
 
 .arrow {
     color: #fff;
@@ -269,7 +249,7 @@ li {
 }
 
 .box-para {
-    color: #adb5bd;
+    color: #63686d;
     font-weight: 400;
     font-size: 17px;
     text-align: center;
@@ -284,6 +264,12 @@ li {
     height: 90vh;
     background-color: #041E42;
     position: relative;
+}
+
+.cont-img{
+    position: absolute;
+    top: 50px;
+    left: 80px;
 }
 
 .form-cont {
