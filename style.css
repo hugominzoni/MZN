@@ -511,25 +511,54 @@ footer {
         justify-content: center;
     }
 
-    .form-cont {
-        width: 80%;
-        height: auto;
-        color: #fff;
-        position: absolute;
-        top: 10%;
-        right: 90px;
-
+    .contact-btn {
+        width: 220px;
+        height: 50px;
+        margin-top: 10px;
     }
 
-    .btn {
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        background-color: #E7004C !important;
-        width: 180px !important;
-        height: 40px !important;
+    .cont{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
+    .cont-text{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 40px;
+        margin: 0;
+    }
+    
+    .cont-text h2 {
+        font-size: 1.9rem;
+    }
+    
+    .cont-text h2,
+    .cont-text p {
+        margin-bottom: 20px;
+    }
 
+    .footer-logo {
+        height: 40%;
+    }
+
+    .location{
+        margin-right: 100px;
+    }
+
+    .location p {
+        font-size: 0.7rem;
+    }
+
+    .reference{
+        display: none;
+    }
 
 }
