@@ -189,7 +189,7 @@ li {
     font-weight: 400;
     font-size: 20px;
     width: 550px;
-
+    margin-bottom: 10px;
 }
 
 /****************************************************/
@@ -357,11 +357,9 @@ footer {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    filter: grayscale(var(--value, 100%));
+    /* filter: grayscale(var(--value, 100%)); */
     margin-left: 40px;
 }
-
-.location {}
 
 .location p {
     font-size: 0.8rem;
@@ -497,7 +495,7 @@ footer {
         font-size: 20px;
         width: 350px;
         text-align: center;
-
+        margin-bottom: 20px;
     }
 
     .services {
