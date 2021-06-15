@@ -50,6 +50,7 @@ li {
 
 .contact a {
     color: #363636;
+    font-weight: bold;
 
 }
 
@@ -263,7 +264,7 @@ strong {
 .box-para {
     color: #63686d;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -273,34 +274,63 @@ strong {
 
 #contact-us {
     width: 100%;
-    height: 90vh;
-    background-color: #041E42;
+    height: 50vh;
+    background-image: linear-gradient(#041e42e7, #041e42f3), url(img/pexels-burst-374870.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.cont-img {
-    position: absolute;
-    top: 50px;
-    left: 80px;
-}
-
-.form-cont {
-    width: 40%;
-    height: 500px;
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
     color: #fff;
-    position: absolute;
-    top: 10%;
-    right: 90px;
+    line-height: 1.5;
 }
 
-.btn {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    background-color: #E7004C !important;
-    width: 180px !important;
-    height: 40px !important;
+.contact-btn {
+    width: 280px;
+    height: 60px;
+    background-color: #E7004C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 6px 3px rgba(0, 0, 0, 0.274);
+    transition: all 0.4s;
 }
+
+.contact-btn:hover {
+    background-color: #b6003d;
+    transform: translateY(3px);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.301);
+}
+
+
+.cont-text {
+    width: 55%;
+    padding-right: 120px;
+
+}
+
+.cont-text h2 {
+    font-size: 2.1rem;
+}
+
+.cont-text h2,
+.cont-text p {
+    margin-bottom: 20px;
+}
+
 
 /****************************************************/
 /* FOOTER */
