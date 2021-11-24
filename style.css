@@ -120,6 +120,21 @@ li {
     font-size: 20px;
 }
 
+.social{
+    margin-left: 20px;
+}
+
+.fab{
+    font-size: 30px;
+}
+
+.face i:hover{
+    color: rgb(37, 44, 105);
+}
+
+.ig i:hover{
+    color: rgb(105, 37, 105);
+}
 
 .learn-more {
     color: #fff;
