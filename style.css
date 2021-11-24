@@ -385,11 +385,22 @@ footer {
 
     .menu {
         width: 100vw;
-        padding: 40px;
+        padding: 40px 20px;
         height: 120px;
         font-weight: 400;
         font-size: 20px;
         color: #363636;
+    }
+
+    .logo {
+        width: 74px;
+        height: 90px;
+        background-image: url(img/MZN_logo.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 20px;
     }
 
     .headline {
@@ -485,6 +496,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-bottom: 120px;
     }
 
     .contact-btn {
@@ -521,20 +533,5 @@ footer {
         margin-bottom: 20px;
     }
 
-    .footer-logo {
-        height: 40%;
-    }
-
-    .location{
-        margin-right: 100px;
-    }
-
-    .location p {
-        font-size: 0.7rem;
-    }
-
-    .reference{
-        display: none;
-    }
 
 }
