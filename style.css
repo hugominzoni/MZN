@@ -48,10 +48,16 @@ li {
 
 }
 
-.contact a,
 .men a{
     color: #363636;
+}
+
+.contact a{
+    color: #fff;
+    background-color: #363636;
     font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
 
 }
 
